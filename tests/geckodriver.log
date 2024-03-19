@@ -1,0 +1,35 @@
+1709787389014	geckodriver	INFO	Listening on 127.0.0.1:49784
+1709787392065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SHIVA~1.CHA\\AppData\\Local\\Temp\\rust_mozprofileuz9lGg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709787392692	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709787392853	Marionette	INFO	Listening on port 49794
+WebDriver BiDi listening on ws://127.0.0.1:49785
+Read port: 49794
+1709787393064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49785/devtools/browser/e36f9434-84b4-46fd-b232-d3169e6d0e6f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
+1709787422631	Marionette	INFO	Stopped listening on port 49794
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1709787423093	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.sys.mjs", 738))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1709787518999	geckodriver	INFO	Listening on 127.0.0.1:49856
+1709787522061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SHIVA~1.CHA\\AppData\\Local\\Temp\\rust_mozprofileoSKouz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709787522530	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709787522645	Marionette	INFO	Listening on port 49864
+WebDriver BiDi listening on ws://127.0.0.1:49857
+Read port: 49864
+1709787522833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49857/devtools/browser/24309de6-4ccc-48e6-8e18-e6c201416dda
+1709787526052	Marionette	INFO	Stopped listening on port 49864
+Dynamically enable window occlusion 1
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))

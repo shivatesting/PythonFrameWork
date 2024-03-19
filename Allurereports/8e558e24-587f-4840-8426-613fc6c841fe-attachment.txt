@@ -1,0 +1,9 @@
+[32mINFO    [0m test_e2e:test_e2e.py:22 getting all the card titles
+[32mINFO    [0m test_e2e:test_e2e.py:28 iphone X
+[32mINFO    [0m test_e2e:test_e2e.py:28 Samsung Note 8
+[32mINFO    [0m test_e2e:test_e2e.py:28 Nokia Edge
+[32mINFO    [0m test_e2e:test_e2e.py:28 Blackberry
+[32mINFO    [0m test_e2e:test_e2e.py:35 Entering country name as ind
+[32mINFO    [0m test_e2e:test_e2e.py:43 Selected country name
+[32mINFO    [0m test_e2e:test_e2e.py:47 Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).

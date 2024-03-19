@@ -1,0 +1,263 @@
+
+2024-03-14 09:49:36,190 :INFO : test_formSubmission :first name is Amit
+2024-03-14 09:49:36,287 :INFO : test_formSubmission :Last name is Singh
+2024-03-14 09:49:36,408 :INFO : test_formSubmission :Gender is Male
+2024-03-14 09:50:02,527 :INFO : test_e2e :getting all the card titles
+2024-03-14 09:50:02,715 :INFO : test_e2e :Entering country name as ind
+2024-03-14 09:50:08,153 :INFO : test_e2e :Selected country name
+2024-03-14 09:50:08,252 :INFO : test_e2e :Text received from application is ï¿½
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-14 09:52:49,337 :INFO : test_formSubmission :first name is Amit
+2024-03-14 09:52:49,405 :INFO : test_formSubmission :Last name is Singh
+2024-03-14 09:52:49,503 :INFO : test_formSubmission :Gender is Male
+2024-03-14 09:53:15,664 :INFO : test_e2e :getting all the card titles
+2024-03-14 09:53:15,849 :INFO : test_e2e :Entering country name as ind
+2024-03-14 09:53:21,208 :INFO : test_e2e :Selected country name
+2024-03-14 09:53:21,312 :INFO : test_e2e :Text received from application is ï¿½
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-14 10:48:52,282 :INFO : test_formSubmission :first name is Amit
+2024-03-14 10:48:52,360 :INFO : test_formSubmission :Last name is Singh
+2024-03-14 10:48:52,483 :INFO : test_formSubmission :Gender is Male
+2024-03-14 10:49:20,181 :INFO : test_e2e :getting all the card titles
+2024-03-14 10:49:20,203 :INFO : test_e2e :iphone X
+2024-03-14 10:49:20,211 :INFO : test_e2e :Samsung Note 8
+2024-03-14 10:49:20,217 :INFO : test_e2e :Nokia Edge
+2024-03-14 10:49:20,223 :INFO : test_e2e :Blackberry
+2024-03-14 10:49:20,361 :INFO : test_e2e :Entering country name as ind
+2024-03-14 10:49:25,775 :INFO : test_e2e :Selected country name
+2024-03-14 10:49:25,873 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 13:31:49,600 :INFO : test_formSubmission :first name is Amit
+2024-03-15 13:31:49,683 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 13:31:49,822 :INFO : test_formSubmission :Gender is Male
+2024-03-15 13:32:19,067 :INFO : test_e2e :getting all the card titles
+2024-03-15 13:32:19,101 :INFO : test_e2e :iphone X
+2024-03-15 13:32:19,111 :INFO : test_e2e :Samsung Note 8
+2024-03-15 13:32:19,118 :INFO : test_e2e :Nokia Edge
+2024-03-15 13:32:19,125 :INFO : test_e2e :Blackberry
+2024-03-15 13:32:19,274 :INFO : test_e2e :Entering country name as ind
+2024-03-15 13:32:24,614 :INFO : test_e2e :Selected country name
+2024-03-15 13:32:24,750 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 13:48:43,705 :INFO : test_e2e :getting all the card titles
+2024-03-15 13:48:43,734 :INFO : test_e2e :iphone X
+2024-03-15 13:48:43,740 :INFO : test_e2e :Samsung Note 8
+2024-03-15 13:48:43,748 :INFO : test_e2e :Nokia Edge
+2024-03-15 13:48:43,755 :INFO : test_e2e :Blackberry
+2024-03-15 13:48:43,904 :INFO : test_e2e :Entering country name as ind
+2024-03-15 13:48:49,281 :INFO : test_e2e :Selected country name
+2024-03-15 13:48:49,379 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 13:52:10,454 :INFO : test_e2e :getting all the card titles
+2024-03-15 13:52:10,482 :INFO : test_e2e :iphone X
+2024-03-15 13:52:10,491 :INFO : test_e2e :Samsung Note 8
+2024-03-15 13:52:10,498 :INFO : test_e2e :Nokia Edge
+2024-03-15 13:52:10,506 :INFO : test_e2e :Blackberry
+2024-03-15 13:52:10,650 :INFO : test_e2e :Entering country name as ind
+2024-03-15 13:52:16,115 :INFO : test_e2e :Selected country name
+2024-03-15 13:52:16,219 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 13:55:31,126 :INFO : test_e2e :getting all the card titles
+2024-03-15 13:55:31,153 :INFO : test_e2e :iphone X
+2024-03-15 13:55:31,160 :INFO : test_e2e :Samsung Note 8
+2024-03-15 13:55:31,169 :INFO : test_e2e :Nokia Edge
+2024-03-15 13:55:31,176 :INFO : test_e2e :Blackberry
+2024-03-15 13:55:31,337 :INFO : test_e2e :Entering country name as ind
+2024-03-15 13:55:36,784 :INFO : test_e2e :Selected country name
+2024-03-15 13:55:36,886 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 14:01:47,981 :INFO : test_formSubmission :first name is Amit
+2024-03-15 14:01:48,051 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 14:01:48,167 :INFO : test_formSubmission :Gender is Male
+2024-03-15 14:02:14,417 :INFO : test_e2e :getting all the card titles
+2024-03-15 14:02:14,446 :INFO : test_e2e :iphone X
+2024-03-15 14:02:14,454 :INFO : test_e2e :Samsung Note 8
+2024-03-15 14:02:14,462 :INFO : test_e2e :Nokia Edge
+2024-03-15 14:02:14,469 :INFO : test_e2e :Blackberry
+2024-03-15 14:02:14,636 :INFO : test_e2e :Entering country name as ind
+2024-03-15 14:02:20,092 :INFO : test_e2e :Selected country name
+2024-03-15 14:02:20,209 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 14:05:28,204 :INFO : test_formSubmission :first name is Amit
+2024-03-15 14:05:28,280 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 14:05:28,376 :INFO : test_formSubmission :Gender is Male
+2024-03-15 14:05:55,509 :INFO : test_e2e :getting all the card titles
+2024-03-15 14:05:55,535 :INFO : test_e2e :iphone X
+2024-03-15 14:05:55,542 :INFO : test_e2e :Samsung Note 8
+2024-03-15 14:05:55,550 :INFO : test_e2e :Nokia Edge
+2024-03-15 14:05:55,556 :INFO : test_e2e :Blackberry
+2024-03-15 14:05:55,728 :INFO : test_e2e :Entering country name as ind
+2024-03-15 14:06:01,120 :INFO : test_e2e :Selected country name
+2024-03-15 14:06:01,214 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 14:07:49,986 :INFO : test_formSubmission :first name is Amit
+2024-03-15 14:07:50,064 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 14:07:50,187 :INFO : test_formSubmission :Gender is Male
+2024-03-15 14:08:16,848 :INFO : test_e2e :getting all the card titles
+2024-03-15 14:08:16,877 :INFO : test_e2e :iphone X
+2024-03-15 14:08:16,891 :INFO : test_e2e :Samsung Note 8
+2024-03-15 14:08:16,900 :INFO : test_e2e :Nokia Edge
+2024-03-15 14:08:16,908 :INFO : test_e2e :Blackberry
+2024-03-15 14:08:17,089 :INFO : test_e2e :Entering country name as ind
+2024-03-15 14:08:22,486 :INFO : test_e2e :Selected country name
+2024-03-15 14:08:22,623 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 15:35:23,013 :INFO : test_formSubmission :first name is Amit
+2024-03-15 15:35:23,085 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 15:35:23,183 :INFO : test_formSubmission :Gender is Male
+2024-03-15 15:35:49,443 :INFO : test_e2e :getting all the card titles
+2024-03-15 15:35:49,472 :INFO : test_e2e :iphone X
+2024-03-15 15:35:49,479 :INFO : test_e2e :Samsung Note 8
+2024-03-15 15:35:49,489 :INFO : test_e2e :Nokia Edge
+2024-03-15 15:35:49,498 :INFO : test_e2e :Blackberry
+2024-03-15 15:35:49,677 :INFO : test_e2e :Entering country name as ind
+2024-03-15 15:35:55,090 :INFO : test_e2e :Selected country name
+2024-03-15 15:35:55,191 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 15:38:03,733 :INFO : test_formSubmission :first name is Amit
+2024-03-15 15:38:03,808 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 15:38:03,929 :INFO : test_formSubmission :Gender is Male
+2024-03-15 15:38:30,597 :INFO : test_e2e :getting all the card titles
+2024-03-15 15:38:30,633 :INFO : test_e2e :iphone X
+2024-03-15 15:38:30,642 :INFO : test_e2e :Samsung Note 8
+2024-03-15 15:38:30,654 :INFO : test_e2e :Nokia Edge
+2024-03-15 15:38:30,665 :INFO : test_e2e :Blackberry
+2024-03-15 15:38:30,886 :INFO : test_e2e :Entering country name as ind
+2024-03-15 15:38:36,160 :INFO : test_e2e :Selected country name
+2024-03-15 15:38:36,282 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-15 15:46:05,126 :INFO : test_formSubmission :first name is Amit
+2024-03-15 15:46:05,204 :INFO : test_formSubmission :Last name is Singh
+2024-03-15 15:46:05,328 :INFO : test_formSubmission :Gender is Male
+2024-03-15 15:46:32,320 :INFO : test_e2e :getting all the card titles
+2024-03-15 15:46:32,356 :INFO : test_e2e :iphone X
+2024-03-15 15:46:32,367 :INFO : test_e2e :Samsung Note 8
+2024-03-15 15:46:32,374 :INFO : test_e2e :Nokia Edge
+2024-03-15 15:46:32,384 :INFO : test_e2e :Blackberry
+2024-03-15 15:46:32,549 :INFO : test_e2e :Entering country name as ind
+2024-03-15 15:46:37,804 :INFO : test_e2e :Selected country name
+2024-03-15 15:46:37,950 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 09:50:43,626 :INFO : test_formSubmission :first name is Amit
+2024-03-18 09:50:43,703 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 09:50:43,812 :INFO : test_formSubmission :Gender is Male
+2024-03-18 09:51:08,932 :INFO : test_e2e :getting all the card titles
+2024-03-18 09:51:08,955 :INFO : test_e2e :iphone X
+2024-03-18 09:51:08,962 :INFO : test_e2e :Samsung Note 8
+2024-03-18 09:51:08,968 :INFO : test_e2e :Nokia Edge
+2024-03-18 09:51:08,975 :INFO : test_e2e :Blackberry
+2024-03-18 09:51:09,128 :INFO : test_e2e :Entering country name as ind
+2024-03-18 09:51:14,516 :INFO : test_e2e :Selected country name
+2024-03-18 09:51:14,614 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 11:48:59,052 :INFO : test_formSubmission :first name is Amit
+2024-03-18 11:48:59,138 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 11:48:59,262 :INFO : test_formSubmission :Gender is Male
+2024-03-18 11:49:24,736 :INFO : test_e2e :getting all the card titles
+2024-03-18 11:49:24,762 :INFO : test_e2e :iphone X
+2024-03-18 11:49:24,769 :INFO : test_e2e :Samsung Note 8
+2024-03-18 11:49:24,775 :INFO : test_e2e :Nokia Edge
+2024-03-18 11:49:24,780 :INFO : test_e2e :Blackberry
+2024-03-18 11:49:24,910 :INFO : test_e2e :Entering country name as ind
+2024-03-18 11:49:30,374 :INFO : test_e2e :Selected country name
+2024-03-18 11:49:30,478 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 12:11:53,659 :INFO : test_formSubmission :first name is Amit
+2024-03-18 12:11:53,730 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 12:11:53,846 :INFO : test_formSubmission :Gender is Male
+2024-03-18 12:12:18,102 :INFO : test_e2e :getting all the card titles
+2024-03-18 12:12:18,127 :INFO : test_e2e :iphone X
+2024-03-18 12:12:18,135 :INFO : test_e2e :Samsung Note 8
+2024-03-18 12:12:18,141 :INFO : test_e2e :Nokia Edge
+2024-03-18 12:12:18,147 :INFO : test_e2e :Blackberry
+2024-03-18 12:12:18,281 :INFO : test_e2e :Entering country name as ind
+2024-03-18 12:12:23,674 :INFO : test_e2e :Selected country name
+2024-03-18 12:12:23,769 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 14:52:20,686 :INFO : test_formSubmission :first name is Amit
+2024-03-18 14:52:20,768 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 14:52:20,873 :INFO : test_formSubmission :Gender is Male
+2024-03-18 14:52:44,826 :INFO : test_e2e :getting all the card titles
+2024-03-18 14:52:44,867 :INFO : test_e2e :iphone X
+2024-03-18 14:52:44,876 :INFO : test_e2e :Samsung Note 8
+2024-03-18 14:52:44,889 :INFO : test_e2e :Nokia Edge
+2024-03-18 14:52:44,898 :INFO : test_e2e :Blackberry
+2024-03-18 14:52:45,076 :INFO : test_e2e :Entering country name as ind
+2024-03-18 14:52:50,344 :INFO : test_e2e :Selected country name
+2024-03-18 14:52:50,481 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 15:06:09,328 :INFO : test_formSubmission :first name is Amit
+2024-03-18 15:06:09,399 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 15:06:09,497 :INFO : test_formSubmission :Gender is Male
+2024-03-18 15:06:34,842 :INFO : test_e2e :getting all the card titles
+2024-03-18 15:06:34,875 :INFO : test_e2e :iphone X
+2024-03-18 15:06:34,886 :INFO : test_e2e :Samsung Note 8
+2024-03-18 15:06:34,897 :INFO : test_e2e :Nokia Edge
+2024-03-18 15:06:34,905 :INFO : test_e2e :Blackberry
+2024-03-18 15:06:35,126 :INFO : test_e2e :Entering country name as ind
+2024-03-18 15:06:40,506 :INFO : test_e2e :Selected country name
+2024-03-18 15:06:40,631 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 15:20:18,697 :INFO : test_formSubmission :first name is Amit
+2024-03-18 15:20:18,772 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 15:20:18,891 :INFO : test_formSubmission :Gender is Male
+2024-03-18 15:20:45,967 :INFO : test_e2e :getting all the card titles
+2024-03-18 15:20:46,000 :INFO : test_e2e :iphone X
+2024-03-18 15:20:46,008 :INFO : test_e2e :Samsung Note 8
+2024-03-18 15:20:46,016 :INFO : test_e2e :Nokia Edge
+2024-03-18 15:20:46,023 :INFO : test_e2e :Blackberry
+2024-03-18 15:20:46,247 :INFO : test_e2e :Entering country name as ind
+2024-03-18 15:20:51,698 :INFO : test_e2e :Selected country name
+2024-03-18 15:20:51,799 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 15:24:14,839 :INFO : test_formSubmission :first name is Amit
+2024-03-18 15:24:14,903 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 15:24:15,010 :INFO : test_formSubmission :Gender is Male
+2024-03-18 15:24:41,772 :INFO : test_e2e :getting all the card titles
+2024-03-18 15:24:41,797 :INFO : test_e2e :iphone X
+2024-03-18 15:24:41,804 :INFO : test_e2e :Samsung Note 8
+2024-03-18 15:24:41,811 :INFO : test_e2e :Nokia Edge
+2024-03-18 15:24:41,819 :INFO : test_e2e :Blackberry
+2024-03-18 15:24:41,965 :INFO : test_e2e :Entering country name as ind
+2024-03-18 15:24:47,355 :INFO : test_e2e :Selected country name
+2024-03-18 15:24:47,454 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 15:30:22,307 :INFO : test_formSubmission :first name is Amit
+2024-03-18 15:30:22,375 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 15:30:22,484 :INFO : test_formSubmission :Gender is Male
+2024-03-18 15:30:48,977 :INFO : test_e2e :getting all the card titles
+2024-03-18 15:30:48,998 :INFO : test_e2e :iphone X
+2024-03-18 15:30:49,008 :INFO : test_e2e :Samsung Note 8
+2024-03-18 15:30:49,014 :INFO : test_e2e :Nokia Edge
+2024-03-18 15:30:49,022 :INFO : test_e2e :Blackberry
+2024-03-18 15:30:49,177 :INFO : test_e2e :Entering country name as ind
+2024-03-18 15:30:54,592 :INFO : test_e2e :Selected country name
+2024-03-18 15:30:54,691 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-18 16:42:04,526 :INFO : test_formSubmission :first name is Amit
+2024-03-18 16:44:16,629 :INFO : test_formSubmission :first name is Amit
+2024-03-18 16:44:43,319 :INFO : test_e2e :getting all the card titles
+2024-03-18 16:45:46,481 :INFO : test_formSubmission :first name is Amit
+2024-03-18 16:45:46,558 :INFO : test_formSubmission :Last name is Singh
+2024-03-18 16:45:46,670 :INFO : test_formSubmission :Gender is Male
+2024-03-18 16:46:13,097 :INFO : test_e2e :getting all the card titles
+2024-03-18 16:46:13,126 :INFO : test_e2e :iphone X
+2024-03-18 16:46:13,134 :INFO : test_e2e :Samsung Note 8
+2024-03-18 16:46:13,141 :INFO : test_e2e :Nokia Edge
+2024-03-18 16:46:13,147 :INFO : test_e2e :Blackberry
+2024-03-18 16:46:13,291 :INFO : test_e2e :Entering country name as ind
+2024-03-18 16:46:18,608 :INFO : test_e2e :Selected country name
+2024-03-18 16:46:18,714 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-03-19 09:44:02,363 :INFO : test_formSubmission :first name is Amit
+2024-03-19 09:44:02,453 :INFO : test_formSubmission :Last name is Singh
+2024-03-19 09:44:02,547 :INFO : test_formSubmission :Gender is Male
+2024-03-19 10:26:27,494 :INFO : test_e2e :getting all the card titles
+2024-03-19 10:26:27,519 :INFO : test_e2e :iphone X
+2024-03-19 10:26:27,527 :INFO : test_e2e :Samsung Note 8
+2024-03-19 10:26:27,536 :INFO : test_e2e :Nokia Edge
+2024-03-19 10:26:27,544 :INFO : test_e2e :Blackberry
+2024-03-19 10:26:27,702 :INFO : test_e2e :Entering country name as ind
+2024-03-19 10:26:33,144 :INFO : test_e2e :Selected country name
+2024-03-19 10:26:33,251 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
