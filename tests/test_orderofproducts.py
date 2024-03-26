@@ -47,4 +47,4 @@ class TestOne(BaseClass):
         log.info("Text received from application is "+ textMatch)
 
         assert ("Success! Thank you!" in textMatch)
-        allure.attach(self.driver.get_screenshot_as_png(),name="e2e",attachment_type=AttachmentType.PNG)
+        allure.attach(self.driver.get_screenshot_as_png(),name="Order of Products",attachment_type=AttachmentType.PNG)

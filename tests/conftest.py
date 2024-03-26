@@ -1,9 +1,10 @@
+import os
+import shutil
+
 import allure
 import pytest
 from allure_commons.types import AttachmentType
 from selenium import webdriver
-import time
-
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import IEDriverManager, EdgeChromiumDriverManager
@@ -12,29 +13,25 @@ driver = None
 
 
 def pytest_addoption(parser):
-    parser.addoption(
-        "--browser_name", action="store", default="chrome"
-    )
+    parser.addoption("--browser_name", action="store", default="chrome")
+    parser.addoption("--url", action="store", default='https://rahulshettyacademy.com/angularpractice')
 
 
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
-    # service_obj = Service("C:\\Users\\shiva.chaudhary\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe")
-    # driver = webdriver.Chrome(service=service_obj)
     browser_name = request.config.getoption("browser_name")
+    url = request.config.getoption("--url")
     if browser_name == "chrome":
-        # driver = webdriver.Chrome(executable_path="C:\\Users\\shiva.chaudhary\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe")
         driver = webdriver.Chrome(ChromeDriverManager().install())
     elif browser_name == "firefox":
-        # driver = webdriver.Firefox(executable_path="C:\\Users\\shiva.chaudhary\\Downloads\\geckodriver-v0.34.0-win-aarch64\\geckodriver.exe")
         driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
     elif browser_name == "IE":
         driver = webdriver.Ie(IEDriverManager().install())
     elif browser_name == "Edge":
         driver = webdriver.Edge(EdgeChromiumDriverManager().install())
     driver.maximize_window()
-    driver.get("https://rahulshettyacademy.com/angularpractice")
+    driver.get(url)
     request.cls.driver = driver
     yield
     driver.close()
@@ -77,3 +74,20 @@ def log_on_failure(request):
 
 def _capture_screenshot(name):
     driver.get_screenshot_as_file(name)
+
+
+@pytest.fixture(scope='session', autouse=True)
+def cleanup_files_before_test(request):
+    folder_path = ('C:/Users/shiva.chaudhary/PycharmProjects/PythonSelfFramework/pythonProject/allure-results')
+
+    if os.path.exists(folder_path):
+        for file_name in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, file_name)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+                    # os.mkdir('screenshot')
+            except Exception as e:
+                print(f"Error while deleting {file_path}: {e}")

@@ -5,10 +5,10 @@ from TestData.HomePageData import HomePageData
 from pageObjects.HomePage import HomePage
 from utilities.BaseClass import BaseClass
 
+
 class TestHomePage(BaseClass):
 
     def test_formSubmission(self, getData):
-
         log = self.getLogger()
         homepage = HomePage(self.driver)
 
@@ -25,9 +25,8 @@ class TestHomePage(BaseClass):
 
         assert ("Success" in alertText)
         self.driver.refresh()
-        allure.attach(self.driver.get_screenshot_as_png(), name="HomePage", attachment_type=AttachmentType.PNG)
+        allure.attach(self.driver.get_screenshot_as_png(), name="Contact From", attachment_type=AttachmentType.PNG)
 
     @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
     def getData(self, request):
         return request.param
-

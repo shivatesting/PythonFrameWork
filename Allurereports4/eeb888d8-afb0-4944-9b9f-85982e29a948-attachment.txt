@@ -1,1 +1,0 @@
-[32mINFO    [0m test_e2e:test_e2e.py:22 getting all the card titles
