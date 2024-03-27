@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6dc78023837aa9cb",
+  "name" : "test_formSubmission[getData0]",
+  "time" : {
+    "start" : 1711525571095,
+    "stop" : 1711525571780,
+    "duration" : 685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcde086d5102ca6f",
+  "name" : "test_e2e",
+  "time" : {
+    "start" : 1711525576958,
+    "stop" : 1711525583222,
+    "duration" : 6264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

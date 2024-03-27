@@ -1,6 +1,6 @@
 import os
 import shutil
-
+import configparser
 import allure
 import pytest
 from allure_commons.types import AttachmentType
@@ -12,16 +12,17 @@ from webdriver_manager.microsoft import IEDriverManager, EdgeChromiumDriverManag
 driver = None
 
 
-def pytest_addoption(parser):
-    parser.addoption("--browser_name", action="store", default="chrome")
-    parser.addoption("--url", action="store", default='https://rahulshettyacademy.com/angularpractice')
-
-
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
-    browser_name = request.config.getoption("browser_name")
-    url = request.config.getoption("--url")
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    config_file_path = os.path.join(current_directory, 'config.properties')
+    config = configparser.ConfigParser()
+    config.read(config_file_path)
+
+    browser_name = config['AllDetails']['browser_name']
+    url = config['AllDetails']['url']
+
     if browser_name == "chrome":
         driver = webdriver.Chrome(ChromeDriverManager().install())
     elif browser_name == "firefox":
@@ -30,10 +31,12 @@ def setup(request):
         driver = webdriver.Ie(IEDriverManager().install())
     elif browser_name == "Edge":
         driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+
     driver.maximize_window()
+
     driver.get(url)
     request.cls.driver = driver
-    yield
+    yield url
     driver.close()
 
 
@@ -70,6 +73,8 @@ def log_on_failure(request):
     item = request.node
     if item.rep_call.failed:
         allure.attach(driver.get_screenshot_as_png(), name="failed_test", attachment_type=AttachmentType.PNG)
+    else:
+        allure.attach(driver.get_screenshot_as_png(), name="passed_test", attachment_type=AttachmentType.PNG)
 
 
 def _capture_screenshot(name):
@@ -78,7 +83,7 @@ def _capture_screenshot(name):
 
 @pytest.fixture(scope='session', autouse=True)
 def cleanup_files_before_test(request):
-    folder_path = ('C:/Users/shiva.chaudhary/PycharmProjects/PythonSelfFramework/pythonProject/allure-results')
+    folder_path = 'C:/Users/shiva.chaudhary/PycharmProjects/PythonSelfFramework/pythonProject/allure-results'
 
     if os.path.exists(folder_path):
         for file_name in os.listdir(folder_path):

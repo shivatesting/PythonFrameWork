@@ -25,7 +25,7 @@ class TestHomePage(BaseClass):
 
         assert ("Success" in alertText)
         self.driver.refresh()
-        allure.attach(self.driver.get_screenshot_as_png(), name="Contact From", attachment_type=AttachmentType.PNG)
+
 
     @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
     def getData(self, request):

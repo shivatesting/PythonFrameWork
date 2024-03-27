@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PS-WIN-LP-474",
+    "children" : [ {
+      "name" : "25008-MainThread",
+      "children" : [ {
+        "name" : "test_formSubmission[getData0]",
+        "uid" : "6dc78023837aa9cb",
+        "parentUid" : "f9b5488cabc95e0e7f1216d47419231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711525571095,
+          "stop" : 1711525571780,
+          "duration" : 685
+        },
+        "flaky" : false,
+        "parameters" : [ "{'firstname': 'Amit', 'lastname': 'Singh', 'gender': 'Male'}" ]
+      }, {
+        "name" : "test_e2e",
+        "uid" : "fcde086d5102ca6f",
+        "parentUid" : "f9b5488cabc95e0e7f1216d47419231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711525576958,
+          "stop" : 1711525583222,
+          "duration" : 6264
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9b5488cabc95e0e7f1216d47419231a"
+    } ],
+    "uid" : "71904a457b2e3bdca15da65851c91a7e"
+  } ]
+}
