@@ -1,35 +1,20 @@
 {
-  "uid" : "6dc78023837aa9cb",
+  "uid" : "886435d6457bc524",
   "name" : "test_formSubmission[getData0]",
   "fullName" : "tests.test_contactfrom.TestHomePage#test_formSubmission",
   "historyId" : "804e51d9adadb3024c878bda78305ce1",
   "time" : {
-    "start" : 1711525571095,
-    "stop" : 1711525571780,
-    "duration" : 685
+    "start" : 1711530410989,
+    "stop" : 1711530411587,
+    "duration" : 598
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "cleanup_files_before_test",
-    "time" : {
-      "start" : 1711525566600,
-      "stop" : 1711525566605,
-      "duration" : 5
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0
-  }, {
     "name" : "getData",
     "time" : {
-      "start" : 1711525571092,
-      "stop" : 1711525571092,
+      "start" : 1711530410987,
+      "stop" : 1711530410987,
       "duration" : 0
     },
     "status" : "passed",
@@ -37,91 +22,106 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : false,
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "cleanup_files_before_test",
+    "time" : {
+      "start" : 1711530406600,
+      "stop" : 1711530406600,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 0
   }, {
     "name" : "log_on_failure",
     "time" : {
-      "start" : 1711525571091,
-      "stop" : 1711525571092,
-      "duration" : 1
+      "start" : 1711530410987,
+      "stop" : 1711530410987,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : false,
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 0
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1711525566605,
-      "stop" : 1711525571091,
-      "duration" : 4486
+      "start" : 1711530406600,
+      "stop" : 1711530410987,
+      "duration" : 4387
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : false,
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "64ebe9e4c4f19ebf",
+      "uid" : "606176acca6ff3c4",
       "name" : "log",
-      "source" : "64ebe9e4c4f19ebf.txt",
+      "source" : "606176acca6ff3c4.txt",
       "type" : "text/plain",
       "size" : 208
     } ],
     "parameters" : [ ],
     "hasContent" : true,
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
     "stepsCount" : 0
   },
   "afterStages" : [ {
     "name" : "log_on_failure::0",
     "time" : {
-      "start" : 1711525571781,
-      "stop" : 1711525571860,
-      "duration" : 79
+      "start" : 1711530411588,
+      "stop" : 1711530411653,
+      "duration" : 65
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "981e137f876d3f62",
+      "uid" : "f579fc61ac859497",
       "name" : "passed_test",
-      "source" : "981e137f876d3f62.png",
+      "source" : "f579fc61ac859497.png",
       "type" : "image/png",
       "size" : 22743
     } ],
     "parameters" : [ ],
     "hasContent" : true,
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
     "stepsCount" : 0
   }, {
     "name" : "setup::0",
     "time" : {
-      "start" : 1711525571861,
-      "stop" : 1711525571917,
-      "duration" : 56
+      "start" : 1711530411653,
+      "stop" : 1711530411701,
+      "duration" : 48
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : false,
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 0
   } ],
   "labels" : [ {
@@ -141,7 +141,7 @@
     "value" : "PS-WIN-LP-474"
   }, {
     "name" : "thread",
-    "value" : "25008-MainThread"
+    "value" : "30120-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -168,6 +168,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('setup', 'log_on_failure')" ]
   },
-  "source" : "6dc78023837aa9cb.json",
+  "source" : "886435d6457bc524.json",
   "parameterValues" : [ "{'firstname': 'Amit', 'lastname': 'Singh', 'gender': 'Male'}" ]
 }
