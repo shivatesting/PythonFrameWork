@@ -1,0 +1,3 @@
+INFO     test_formSubmission:test_contactfrom.py:15 first name is Amit
+INFO     test_formSubmission:test_contactfrom.py:17 Last name is Singh
+INFO     test_formSubmission:test_contactfrom.py:20 Gender is Male

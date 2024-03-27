@@ -1,0 +1,9 @@
+INFO     test_e2e:test_orderofproducts.py:22 getting all the card titles
+INFO     test_e2e:test_orderofproducts.py:28 iphone X
+INFO     test_e2e:test_orderofproducts.py:28 Samsung Note 8
+INFO     test_e2e:test_orderofproducts.py:28 Nokia Edge
+INFO     test_e2e:test_orderofproducts.py:28 Blackberry
+INFO     test_e2e:test_orderofproducts.py:35 Entering country name as ind
+INFO     test_e2e:test_orderofproducts.py:42 Selected country name
+INFO     test_e2e:test_orderofproducts.py:46 Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
