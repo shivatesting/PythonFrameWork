@@ -14,8 +14,8 @@ class TestHomePage(BaseClass):
 
         log.info("first name is " + getData["firstname"])
         homepage.getName().send_keys(getData["firstname"])
-        log.info("Last name is " + getData["lastname"])
-        homepage.getEmail().send_keys(getData["lastname"])
+        log.info("Email is " + getData["Email"])
+        homepage.getEmail().send_keys(getData["Email"])
         homepage.getCheckBox().click()
         log.info("Gender is " + getData["gender"])
         self.selectOptionByText(homepage.getGender(), getData["gender"])
