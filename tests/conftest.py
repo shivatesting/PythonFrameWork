@@ -36,7 +36,7 @@ def setup(request):
 
     driver.get(url)
     request.cls.driver = driver
-    yield url
+    yield
     driver.close()
 
 
