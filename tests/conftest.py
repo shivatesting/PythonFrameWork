@@ -93,6 +93,6 @@ def cleanup_files_before_test(request):
                     os.unlink(file_path)
                 elif os.path.isdir(file_path):
                     shutil.rmtree(file_path)
-                    # os.mkdir('screenshot')
+
             except Exception as e:
                 print(f"Error while deleting {file_path}: {e}")
