@@ -1,5 +1,6 @@
 import inspect
 import logging
+import os
 
 import pytest
 from selenium.webdriver.common.by import By
@@ -28,3 +29,4 @@ class BaseClass:
     def selectOptionByText(self, locator, text):
         sel = Select(locator)
         sel.select_by_visible_text(text)
+
