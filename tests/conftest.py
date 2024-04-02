@@ -8,9 +8,6 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import IEDriverManager, EdgeChromiumDriverManager
-from PIL import ImageGrab
-from PIL import Image
-import io
 import os
 
 driver = None
@@ -21,7 +18,7 @@ config.read(config_file_path)
 
 @pytest.fixture(scope="class")
 def setup(request):
-    global driver # Global variable to hold the WebDriver instance
+    global driver  # Global variable to hold the WebDriver instance
 
     # Retrieve browser name and URL from configuration
     browser_name = config['AllDetails']['browser_name']
@@ -72,13 +69,13 @@ def pytest_runtest_makereport(item):
         if (report.skipped and xfail) or (report.failed and not xfail):
             # Generate a file name based on the test node ID
             file_name = report.nodeid.replace("::", "_") + ".png"
-            _capture_screenshot(file_name) # Capture a screenshot and save it with the generated file name
+            _capture_screenshot(file_name)  # Capture a screenshot and save it with the generated file name
 
             # If the file name exists, create HTML to embed the screenshot in the report
             if file_name:
                 html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
                        'onclick="window.open(this.src)" align="right"/></div>' % file_name
-                extra.append(pytest_html.extras.html(html)) # Append the HTML to the 'extra' attribute
+                extra.append(pytest_html.extras.html(html))  # Append the HTML to the 'extra' attribute
         # Update the 'extra' attribute in the report
         report.extra = extra
 
@@ -106,8 +103,42 @@ def log_on_failure(request):
         allure.attach(driver.get_screenshot_as_png(), name="passed_test", attachment_type=AttachmentType.PNG)
 
 
-def _capture_screenshot(name):
-    driver.get_screenshot_as_file(name)
+def _capture_screenshot(name, driver, folder="screenshots"):
+    # Create the folder if it doesn't exist
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    try:
+        screenshot_path = os.path.join(folder, name)
+        driver.save_screenshot(screenshot_path)
+    except Exception as e:
+        print(f"Failed to capture screenshot: {e}")
+
+@pytest.fixture(scope="session", autouse=True)
+def clean_screenshot_folder_before_suite():
+    """Fixture to clean the screenshot folder before starting a test suite."""
+    folder = config['AllDetails']['folder']
+    try:
+        if os.path.exists(folder):
+            for file in os.listdir(folder):
+                file_path = os.path.join(folder, file)
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
+    except Exception as e:
+        print(f"Failed to clean screenshot folder: {e}")
+
+@pytest.fixture(scope='function', autouse=True)
+def screenshot_after_each_step(request):
+    yield
+    item = request.node
+    if item.rep_call.failed:
+        # If the test failed, no need to capture another screenshot
+        return
+    step_number = 1
+    for step in item.iter_markers(name='step'):
+        step_name = step.kwargs.get('name', f'Step {step_number}')
+        file_name = f"{item.nodeid}_{step_name}.png"
+        _capture_screenshot(file_name)
+        step_number += 1
 
 
 @pytest.fixture(scope='session', autouse=True)
